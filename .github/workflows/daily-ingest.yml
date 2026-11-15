@@ -1,0 +1,17 @@
+name: Daily ingest (EOD)
+# 16:30 IST on weekdays, after NSE close. Calls the deployed backend's protected admin endpoint.
+on:
+  schedule: [{ cron: "0 11 * * 1-5" }]
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger ingestion
+        env:
+          API: ${{ secrets.FINN_API_URL }}
+          TOKEN: ${{ secrets.FINN_ADMIN_TOKEN }}
+        run: |
+          test -n "$API" || { echo "FINN_API_URL secret not set"; exit 1; }
+          curl -fsS -X POST "$API/api/v1/admin/ingest/daily" -H "X-Admin-Token: $TOKEN"

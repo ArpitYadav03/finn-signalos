@@ -1,0 +1,38 @@
+[project]
+name = "finn-signalos"
+version = "0.1.0"
+description = "FINN SignalOS backend: evidence-first investment intelligence API"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115",          # API framework
+  "uvicorn[standard]>=0.30", # ASGI server
+  "sqlalchemy>=2.0",         # ORM (SQLite locally, PostgreSQL in prod)
+  "alembic>=1.13",           # migrations
+  "pydantic>=2.7",           # validation of API bodies, LLM outputs, alert rules
+  "pydantic-settings>=2.3",  # env-based config
+  "httpx>=0.27",             # polite HTTP client for source adapters
+  "yfinance>=0.2.50",        # EOD prices
+  "pymupdf>=1.24",           # PDF text extraction with page numbers
+  "beautifulsoup4>=4.12",    # parsing the document-index page
+  "lxml>=5.0",
+  "python-dateutil>=2.9",
+  "openai>=1.40",            # optional: any OpenAI-compatible LLM endpoint
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+postgres = ["psycopg[binary]>=3.2"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.setuptools.package-data]
+app = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

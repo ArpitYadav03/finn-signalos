@@ -1,0 +1,25 @@
+{
+  "name": "FINN Demo Portfolio",
+  "note": "Mock portfolio for the ENAM challenge: 18 NSE companies across 13 sectors and three size buckets.",
+  "holdings": [
+    {"ticker": "RELIANCE", "name": "Reliance Industries", "sector": "Energy & Conglomerate", "size": "large"},
+    {"ticker": "HDFCBANK", "name": "HDFC Bank", "sector": "Banks", "size": "large", "financial": true},
+    {"ticker": "ICICIBANK", "name": "ICICI Bank", "sector": "Banks", "size": "large", "financial": true},
+    {"ticker": "BAJFINANCE", "name": "Bajaj Finance", "sector": "NBFC", "size": "large", "financial": true},
+    {"ticker": "TCS", "name": "Tata Consultancy Services", "sector": "IT Services", "size": "large"},
+    {"ticker": "INFY", "name": "Infosys", "sector": "IT Services", "size": "large"},
+    {"ticker": "BHARTIARTL", "name": "Bharti Airtel", "sector": "Telecom", "size": "large"},
+    {"ticker": "ITC", "name": "ITC", "sector": "FMCG", "size": "large"},
+    {"ticker": "LT", "name": "Larsen & Toubro", "sector": "Capital Goods", "size": "large"},
+    {"ticker": "SUNPHARMA", "name": "Sun Pharmaceutical", "sector": "Pharma", "size": "large"},
+    {"ticker": "MARUTI", "name": "Maruti Suzuki", "sector": "Autos", "size": "large"},
+    {"ticker": "TITAN", "name": "Titan Company", "sector": "Consumer Discretionary", "size": "large"},
+    {"ticker": "TATASTEEL", "name": "Tata Steel", "sector": "Metals", "size": "large"},
+    {"ticker": "NTPC", "name": "NTPC", "sector": "Power Utilities", "size": "large"},
+    {"ticker": "ETERNAL", "name": "Eternal (Zomato)", "sector": "Internet", "size": "large"},
+    {"ticker": "POLYCAB", "name": "Polycab India", "sector": "Electricals", "size": "mid"},
+    {"ticker": "DIXON", "name": "Dixon Technologies", "sector": "Electronics Manufacturing", "size": "mid"},
+    {"ticker": "PERSISTENT", "name": "Persistent Systems", "sector": "IT Services", "size": "mid"}
+  ],
+  "research_demo": ["TCS", "ASIANPAINT", "DMART", "PIDILITIND"]
+}

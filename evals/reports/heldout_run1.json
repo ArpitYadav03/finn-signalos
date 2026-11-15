@@ -1,0 +1,907 @@
+{
+ "retrieval": {
+  "n": 24,
+  "skipped": [],
+  "variants": {
+   "keyword (current BM25)": {
+    "recall@5": 0.4583333333333333,
+    "recall@10": 0.5833333333333334,
+    "mrr@10": 0.25357142857142856,
+    "hits5": 11,
+    "hits10": 14,
+    "p50_ms": 97.13993751211092,
+    "misses": [
+     {
+      "id": "R02",
+      "ticker": "ULTRACEMCO",
+      "question": "What dividend did the board recommend?",
+      "rank": null,
+      "top1": "I'll let the Board decide that at the end of the year. I can't take a decision on my own. But the Board has taken a decision to keep reviewi"
+     },
+     {
+      "id": "R03",
+      "ticker": "ULTRACEMCO",
+      "question": "What did management say about cement prices and performance?",
+      "rank": 7,
+      "top1": "So firstly, Rahul, I like the echo that you talked about. Always good to hear good performance from as many people. Coming to your first que"
+     },
+     {
+      "id": "R04",
+      "ticker": "PIDILITIND",
+      "question": "What was underlying volume growth in the quarter?",
+      "rank": 10,
+      "top1": "Thank you, Pranav, and good afternoon, and a warm welcome to everybody on the call. I'll just keep my opening comments brief. And the Board "
+     },
+     {
+      "id": "R06",
+      "ticker": "SUNPHARMA",
+      "question": "How did the innovative medicines business perform?",
+      "rank": null,
+      "top1": "hand it over to Kirti, who will share the performance of our Global Innovative Medicines business and India business."
+     },
+     {
+      "id": "R07",
+      "ticker": "NTPC",
+      "question": "How much generation capacity was added in the year?",
+      "rank": null,
+      "top1": "Thank you for a very comprehensive answer. My second question is for the FY32 to FY37 period, you mentioned RE capacity addition of about 76"
+     },
+     {
+      "id": "R10",
+      "ticker": "BHARTIARTL",
+      "question": "What was average revenue per user this quarter?",
+      "rank": null,
+      "top1": "followed by an update on our strategic priorities. Let me start with mobile. This quarter, we added 3.3 million revenue earning customers an"
+     },
+     {
+      "id": "R11",
+      "ticker": "MARUTI",
+      "question": "What were total sales volumes including exports?",
+      "rank": 7,
+      "top1": "the process. So, the management is focused all the time that all of our tier 1, tier 2, tier 3 suppliers keep quality high, because we have "
+     },
+     {
+      "id": "R12",
+      "ticker": "ICICIBANK",
+      "question": "What was the net interest margin?",
+      "rank": null,
+      "top1": "and year ended March 31, 2026. I would like to highlight some key numbers: First, moving on to profit and capital A. Profit and capital 1. N"
+     },
+     {
+      "id": "R13",
+      "ticker": "BAJFINANCE",
+      "question": "How fast did assets under management grow?",
+      "rank": null,
+      "top1": "not changing, I must say to you, the longer-term growth guidance of 23% to 25%. I think it's important to make that point clear because that"
+     },
+     {
+      "id": "R16",
+      "ticker": "ASIANPAINT",
+      "question": "How much cash did operations generate in FY26?",
+      "rank": null,
+      "top1": "Hello, and good evening, everyone. Welcome to Asian Paints Q4 and FY26 Investor Call. I am Lakshya Sharma from the Investor Relations team, "
+     },
+     {
+      "id": "R17",
+      "ticker": "ITC",
+      "question": "How did the cigarettes business perform?",
+      "rank": null,
+      "top1": "| 11 | Key Highlights ▪Cigarettes: Focused execution of strategic & calibrated response to navigate the unprecedented tax increase, balanci"
+     },
+     {
+      "id": "R19",
+      "ticker": "DIXON",
+      "question": "How is the mobile phone business doing?",
+      "rank": null,
+      "top1": "We still feel that we should be able to have a margin of somewhere between 2.8% to 3.1%, 3.2% in our mobile phone business. That's how it's "
+     },
+     {
+      "id": "R22",
+      "ticker": "HAVELLS",
+      "question": "How did Lloyd perform?",
+      "rank": null,
+      "top1": "The others division registered net revenues of H 1,727 crores during FY 2025-26 with contribution margins at 16.2% compared with net revenue"
+     }
+    ]
+   },
+   "contextual chunks": {
+    "recall@5": 0.4583333333333333,
+    "recall@10": 0.5833333333333334,
+    "mrr@10": 0.255026455026455,
+    "hits5": 11,
+    "hits10": 14,
+    "p50_ms": 96.83429199503735,
+    "misses": [
+     {
+      "id": "R02",
+      "ticker": "ULTRACEMCO",
+      "question": "What dividend did the board recommend?",
+      "rank": null,
+      "top1": "I'll let the Board decide that at the end of the year. I can't take a decision on my own. But the Board has taken a decision to keep reviewi"
+     },
+     {
+      "id": "R03",
+      "ticker": "ULTRACEMCO",
+      "question": "What did management say about cement prices and performance?",
+      "rank": 6,
+      "top1": "So firstly, Rahul, I like the echo that you talked about. Always good to hear good performance from as many people. Coming to your first que"
+     },
+     {
+      "id": "R04",
+      "ticker": "PIDILITIND",
+      "question": "What was underlying volume growth in the quarter?",
+      "rank": 9,
+      "top1": "Thank you, Pranav, and good afternoon, and a warm welcome to everybody on the call. I'll just keep my opening comments brief. And the Board "
+     },
+     {
+      "id": "R06",
+      "ticker": "SUNPHARMA",
+      "question": "How did the innovative medicines business perform?",
+      "rank": null,
+      "top1": "hand it over to Kirti, who will share the performance of our Global Innovative Medicines business and India business."
+     },
+     {
+      "id": "R07",
+      "ticker": "NTPC",
+      "question": "How much generation capacity was added in the year?",
+      "rank": null,
+      "top1": "Thank you for a very comprehensive answer. My second question is for the FY32 to FY37 period, you mentioned RE capacity addition of about 76"
+     },
+     {
+      "id": "R10",
+      "ticker": "BHARTIARTL",
+      "question": "What was average revenue per user this quarter?",
+      "rank": null,
+      "top1": "followed by an update on our strategic priorities. Let me start with mobile. This quarter, we added 3.3 million revenue earning customers an"
+     },
+     {
+      "id": "R11",
+      "ticker": "MARUTI",
+      "question": "What were total sales volumes including exports?",
+      "rank": 7,
+      "top1": "the process. So, the management is focused all the time that all of our tier 1, tier 2, tier 3 suppliers keep quality high, because we have "
+     },
+     {
+      "id": "R12",
+      "ticker": "ICICIBANK",
+      "question": "What was the net interest margin?",
+      "rank": null,
+      "top1": "and year ended March 31, 2026. I would like to highlight some key numbers: First, moving on to profit and capital A. Profit and capital 1. N"
+     },
+     {
+      "id": "R13",
+      "ticker": "BAJFINANCE",
+      "question": "How fast did assets under management grow?",
+      "rank": null,
+      "top1": "not changing, I must say to you, the longer-term growth guidance of 23% to 25%. I think it's important to make that point clear because that"
+     },
+     {
+      "id": "R16",
+      "ticker": "ASIANPAINT",
+      "question": "How much cash did operations generate in FY26?",
+      "rank": null,
+      "top1": "Balance Sheet as at 31st March 2026 As per our report of even date attached For and on behalf of the Board of Directors of Asian Paints Limi"
+     },
+     {
+      "id": "R17",
+      "ticker": "ITC",
+      "question": "How did the cigarettes business perform?",
+      "rank": null,
+      "top1": "| 11 | Key Highlights ▪Cigarettes: Focused execution of strategic & calibrated response to navigate the unprecedented tax increase, balanci"
+     },
+     {
+      "id": "R19",
+      "ticker": "DIXON",
+      "question": "How is the mobile phone business doing?",
+      "rank": null,
+      "top1": "We still feel that we should be able to have a margin of somewhere between 2.8% to 3.1%, 3.2% in our mobile phone business. That's how it's "
+     },
+     {
+      "id": "R22",
+      "ticker": "HAVELLS",
+      "question": "How did Lloyd perform?",
+      "rank": null,
+      "top1": "The others division registered net revenues of H 1,727 crores during FY 2025-26 with contribution margins at 16.2% compared with net revenue"
+     }
+    ]
+   },
+   "keyword + proximity rerank": {
+    "recall@5": 0.4583333333333333,
+    "recall@10": 0.5416666666666666,
+    "mrr@10": 0.3267857142857143,
+    "hits5": 11,
+    "hits10": 13,
+    "p50_ms": 94.4753959774971,
+    "misses": [
+     {
+      "id": "R02",
+      "ticker": "ULTRACEMCO",
+      "question": "What dividend did the board recommend?",
+      "rank": null,
+      "top1": "UltraTech brand. Cost improvements are underway, and fiscal '27 P&L will start reflecting the benefits of this investment. I should definite"
+     },
+     {
+      "id": "R03",
+      "ticker": "ULTRACEMCO",
+      "question": "What did management say about cement prices and performance?",
+      "rank": null,
+      "top1": "Hi. Good afternoon, good evening, everybody. Ladies and gentlemen, thank you for joining our second quarter '27 earnings call. The September"
+     },
+     {
+      "id": "R05",
+      "ticker": "PIDILITIND",
+      "question": "How have VAM input prices moved?",
+      "rank": 6,
+      "top1": "faced in this quarter was on account of exports, probably the harshest quarter in terms of whatever is happening in the geopolitics world. A"
+     },
+     {
+      "id": "R06",
+      "ticker": "SUNPHARMA",
+      "question": "How did the innovative medicines business perform?",
+      "rank": null,
+      "top1": "hand it over to Kirti, who will share the performance of our Global Innovative Medicines business and India business."
+     },
+     {
+      "id": "R07",
+      "ticker": "NTPC",
+      "question": "How much generation capacity was added in the year?",
+      "rank": null,
+      "top1": "NTPC LIMITED | 139 138 | INTEGRATED ANNUAL REPORT 2025-26 Our Group’s Overview Innovating for Sustainability Statutory Disclosures Statutory"
+     },
+     {
+      "id": "R10",
+      "ticker": "BHARTIARTL",
+      "question": "What was average revenue per user this quarter?",
+      "rank": null,
+      "top1": "followed by an update on our strategic priorities. Let me start with mobile. This quarter, we added 3.3 million revenue earning customers an"
+     },
+     {
+      "id": "R12",
+      "ticker": "ICICIBANK",
+      "question": "What was the net interest margin?",
+      "rank": null,
+      "top1": "and year ended March 31, 2026. I would like to highlight some key numbers: First, moving on to profit and capital A. Profit and capital 1. N"
+     },
+     {
+      "id": "R13",
+      "ticker": "BAJFINANCE",
+      "question": "How fast did assets under management grow?",
+      "rank": null,
+      "top1": "271 Standalone Financial Statements Financial Statements Statutory Reports Corporate Overview Notes to standalone financial statements fo"
+     },
+     {
+      "id": "R16",
+      "ticker": "ASIANPAINT",
+      "question": "How much cash did operations generate in FY26?",
+      "rank": null,
+      "top1": "Hello, and good evening, everyone. Welcome to Asian Paints Q4 and FY26 Investor Call. I am Lakshya Sharma from the Investor Relations team, "
+     },
+     {
+      "id": "R17",
+      "ticker": "ITC",
+      "question": "How did the cigarettes business perform?",
+      "rank": null,
+      "top1": "| 25 | Paperboards, Paper & Packaging ▪ Improving demand scenario; Pricing actions mitigate severe inflation in input costs ▪ Robust tractio"
+     },
+     {
+      "id": "R19",
+      "ticker": "DIXON",
+      "question": "How is the mobile phone business doing?",
+      "rank": null,
+      "top1": "No specific reason. This is a combined entity we look at and Ismartu is also nothing but mobile phone business only. So we decided to consol"
+     },
+     {
+      "id": "R22",
+      "ticker": "HAVELLS",
+      "question": "How did Lloyd perform?",
+      "rank": null,
+      "top1": "The others division registered net revenues of H 1,727 crores during FY 2025-26 with contribution margins at 16.2% compared with net revenue"
+     },
+     {
+      "id": "R23",
+      "ticker": "HDFCBANK",
+      "question": "What share of the loan book is unsecured?",
+      "rank": 7,
+      "top1": "Got it, Srini. The second one is on margins, right? So, I mean directionally, I do understand where the trend can look like. But specificall"
+     }
+    ]
+   },
+   "contextual + rerank": {
+    "recall@5": 0.4583333333333333,
+    "recall@10": 0.5416666666666666,
+    "mrr@10": 0.3267857142857143,
+    "hits5": 11,
+    "hits10": 13,
+    "p50_ms": 108.14631299581379,
+    "misses": [
+     {
+      "id": "R02",
+      "ticker": "ULTRACEMCO",
+      "question": "What dividend did the board recommend?",
+      "rank": null,
+      "top1": "UltraTech brand. Cost improvements are underway, and fiscal '27 P&L will start reflecting the benefits of this investment. I should definite"
+     },
+     {
+      "id": "R03",
+      "ticker": "ULTRACEMCO",
+      "question": "What did management say about cement prices and performance?",
+      "rank": null,
+      "top1": "Hi. Good afternoon, good evening, everybody. Ladies and gentlemen, thank you for joining our second quarter '27 earnings call. The September"
+     },
+     {
+      "id": "R05",
+      "ticker": "PIDILITIND",
+      "question": "How have VAM input prices moved?",
+      "rank": 6,
+      "top1": "faced in this quarter was on account of exports, probably the harshest quarter in terms of whatever is happening in the geopolitics world. A"
+     },
+     {
+      "id": "R06",
+      "ticker": "SUNPHARMA",
+      "question": "How did the innovative medicines business perform?",
+      "rank": null,
+      "top1": "hand it over to Kirti, who will share the performance of our Global Innovative Medicines business and India business."
+     },
+     {
+      "id": "R07",
+      "ticker": "NTPC",
+      "question": "How much generation capacity was added in the year?",
+      "rank": null,
+      "top1": "NTPC LIMITED | 139 138 | INTEGRATED ANNUAL REPORT 2025-26 Our Group’s Overview Innovating for Sustainability Statutory Disclosures Statutory"
+     },
+     {
+      "id": "R10",
+      "ticker": "BHARTIARTL",
+      "question": "What was average revenue per user this quarter?",
+      "rank": null,
+      "top1": "followed by an update on our strategic priorities. Let me start with mobile. This quarter, we added 3.3 million revenue earning customers an"
+     },
+     {
+      "id": "R12",
+      "ticker": "ICICIBANK",
+      "question": "What was the net interest margin?",
+      "rank": null,
+      "top1": "and year ended March 31, 2026. I would like to highlight some key numbers: First, moving on to profit and capital A. Profit and capital 1. N"
+     },
+     {
+      "id": "R13",
+      "ticker": "BAJFINANCE",
+      "question": "How fast did assets under management grow?",
+      "rank": null,
+      "top1": "271 Standalone Financial Statements Financial Statements Statutory Reports Corporate Overview Notes to standalone financial statements fo"
+     },
+     {
+      "id": "R16",
+      "ticker": "ASIANPAINT",
+      "question": "How much cash did operations generate in FY26?",
+      "rank": null,
+      "top1": "Balance Sheet as at 31st March 2026 As per our report of even date attached For and on behalf of the Board of Directors of Asian Paints Limi"
+     },
+     {
+      "id": "R17",
+      "ticker": "ITC",
+      "question": "How did the cigarettes business perform?",
+      "rank": null,
+      "top1": "| 25 | Paperboards, Paper & Packaging ▪ Improving demand scenario; Pricing actions mitigate severe inflation in input costs ▪ Robust tractio"
+     },
+     {
+      "id": "R19",
+      "ticker": "DIXON",
+      "question": "How is the mobile phone business doing?",
+      "rank": null,
+      "top1": "No specific reason. This is a combined entity we look at and Ismartu is also nothing but mobile phone business only. So we decided to consol"
+     },
+     {
+      "id": "R22",
+      "ticker": "HAVELLS",
+      "question": "How did Lloyd perform?",
+      "rank": null,
+      "top1": "The others division registered net revenues of H 1,727 crores during FY 2025-26 with contribution margins at 16.2% compared with net revenue"
+     },
+     {
+      "id": "R23",
+      "ticker": "HDFCBANK",
+      "question": "What share of the loan book is unsecured?",
+      "rank": 7,
+      "top1": "Got it, Srini. The second one is on margins, right? So, I mean directionally, I do understand where the trend can look like. But specificall"
+     }
+    ]
+   }
+  },
+  "embedding_coverage": {
+   "chunks": 34632,
+   "with_embeddings": 335
+  },
+  "decision": {
+   "best": "keyword + proximity rerank",
+   "recall@5_gain_cases": 0,
+   "adopt": false,
+   "rule": "adopt a variant only if it finds the gold passage in the top 5 for at least 2 more cases and MRR does not drop"
+  },
+  "hybrid": "not evaluated: only 1.0% of chunks have embeddings (provider free-tier quota), so a hybrid comparison would measure missing vectors, not the method"
+ },
+ "materiality": {
+  "n": 28,
+  "confusion": {
+   "tp": 4,
+   "fp": 4,
+   "fn": 1,
+   "tn": 19
+  },
+  "errors": [
+   {
+    "key": "932e2b0f917d",
+    "ticker": "BAJFINANCE",
+    "title": "Submission Of Half Yearly Report For FY2026-27",
+    "label": "routine",
+    "finn": "prominent",
+    "level": "high",
+    "score": 83.0,
+    "ok": false
+   },
+   {
+    "key": "092a5d06cf8a",
+    "ticker": "RELIANCE",
+    "title": "Announcement under Regulation 30 (LODR)-Credit Rating",
+    "label": "routine",
+    "finn": "prominent",
+    "level": "medium",
+    "score": 40.0,
+    "ok": false
+   },
+   {
+    "key": "002b1ac76854",
+    "ticker": "ITC",
+    "title": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+    "label": "routine",
+    "finn": "prominent",
+    "level": "high",
+    "score": 80.0,
+    "ok": false
+   },
+   {
+    "key": "8ae527253e92",
+    "ticker": "LT",
+    "title": "Announcement under Regulation 30 (LODR) - Bagging/receiving of order(s) or contr",
+    "label": "prominent",
+    "finn": "routine",
+    "level": "routine",
+    "score": 13.0,
+    "ok": false
+   },
+   {
+    "key": "66676eeff4ee",
+    "ticker": "HDFCBANK",
+    "title": "Announcement under Regulation 30 (LODR)-Change in Management",
+    "label": "routine",
+    "finn": "prominent",
+    "level": "medium",
+    "score": 48.0,
+    "ok": false
+   }
+  ],
+  "missing": [],
+  "accuracy": 0.8214285714285714,
+  "missed_material": [
+   1,
+   5
+  ],
+  "false_alarms": [
+   4,
+   23
+  ]
+ },
+ "research": {
+  "aggregate": {
+   "model": "gemini-3.5-flash",
+   "n_cases": 14,
+   "n_completed": 14,
+   "errors": [],
+   "modes": {
+    "llm:gemini-3.1-flash-lite": 2,
+    "llm:gemini-3.5-flash-lite": 12
+   },
+   "citation_coverage": [
+    50,
+    54
+   ],
+   "document_claim_support_lexical": [
+    33,
+    40
+   ],
+   "numerical_attribution": [
+    58,
+    58
+   ],
+   "validator": {
+    "checked": 64,
+    "statements_removed": 5,
+    "explanations_removed": 0
+   },
+   "gold_retrieved_and_cited": [
+    4,
+    8
+   ],
+   "abstention_correct": [
+    3,
+    4
+   ],
+   "false_abstention": [
+    1,
+    10
+   ],
+   "latency_ms": {
+    "p50": 5904.5,
+    "p90": 10917,
+    "max": 36524
+   },
+   "usage": {
+    "tokens_in": 150311,
+    "tokens_out": 3816,
+    "llm_calls": 45,
+    "estimated_cost_usd": 0.0546
+   }
+  },
+  "cases": [
+   {
+    "id": "E01",
+    "ticker": "ULTRACEMCO",
+    "expect": "answer",
+    "question": "How did fuel and raw material costs change this quarter?",
+    "mode": "llm:gemini-3.5-flash-lite",
+    "latency_ms": 8338,
+    "sentences": 2,
+    "cited_sentences": 2,
+    "doc_sentences": 2,
+    "doc_supported_lexical": 1,
+    "figures": 3,
+    "figures_with_reference": 3,
+    "validator_checked": 5,
+    "validator_removed": 1,
+    "explanations_removed": 0,
+    "abstained": false,
+    "gold_cited": true,
+    "removed_examples": [
+     "Rose ~13% quarter-on-quarter , with fuel rates climbing to ₹2.09 per kcal and fuel cost per bag moving from ₹45 to ₹51.5 — ₹2.09: no cited source contains this figure with the same metric, period and uni"
+    ],
+    "answer_head": "Management stated in the Q2 FY27 earnings call that fuel and raw material costs rose 13% and 3% quarter-on-quarter, respectively [E7]. * **Raw Material Costs:** Increased ~3% quarter-on-quarter [E7]. **Limits:** Structur",
+    "tokens_in": 6054,
+    "tokens_out": 214,
+    "llm_calls": 2,
+    "cost_usd": 0.002351
+   },
+   {
+    "id": "E02",
+    "ticker": "ULTRACEMCO",
+    "expect": "answer",
+    "question": "How did the latest quarter's revenue and profit compare with a year ago?",
+    "mode": "llm:gemini-3.5-flash-lite",
+    "latency_ms": 9111,
+    "sentences": 4,
+    "cited_sentences": 3,
+    "doc_sentences": 3,
+    "doc_supported_lexical": 3,
+    "figures": 1,
+    "figures_with_reference": 1,
+    "validator_checked": 1,
+    "validator_removed": 0,
+    "explanations_removed": 0,
+    "abstained": false,
+    "gold_cited": null,
+    "removed_examples": [],
+    "answer_head": "The company's primary financial disclosures and structured quarterly results for Q2 FY27 are missing from the available exchange filings [snapshot error]. The filings currently accessible contain routine announcements, R",
+    "tokens_in": 31532,
+    "tokens_out": 426,
+    "llm_calls": 7,
+    "cost_usd": 0.010525
+   },
+   {
+    "id": "E03",
+    "ticker": "PIDILITIND",
+    "expect": "answer",
+    "question": "What was underlying volume growth in the quarter?",
+    "mode": "llm:gemini-3.5-flash-lite",
+    "latency_ms": 6455,
+    "sentences": 5,
+    "cited_sentences": 5,
+    "doc_sentences": 5,
+    "doc_supported_lexical": 2,
+    "figures": 6,
+    "figures_with_reference": 6,
+    "validator_checked": 6,
+    "validator_removed": 0,
+    "explanations_removed": 0,
+    "abstained": false,
+    "gold_cited": false,
+    "removed_examples": [],
+    "answer_head": "Management reported that the standalone underlying volume growth (UVG) for the first half (H1 FY27) was 11.0% [E13]. * **H1 FY27 UVG:** Standalone underlying volume growth stood at 11.0%, matching the first half performa",
+    "tokens_in": 17545,
+    "tokens_out": 370,
+    "llm_calls": 4,
+    "cost_usd": 0.006188
+   },
+   {
+    "id": "E04",
+    "ticker": "ASIANPAINT",
+    "expect": "answer",
+    "question": "Is cash flow keeping up with reported profit?",
+    "mode": "llm:gemini-3.1-flash-lite",
+    "latency_ms": 32845,
+    "sentences": 6,
+    "cited_sentences": 5,
+    "doc_sentences": 0,
+    "doc_supported_lexical": 0,
+    "figures": 15,
+    "figures_with_reference": 15,
+    "validator_checked": 15,
+    "validator_removed": 0,
+    "explanations_removed": 0,
+    "abstained": false,
+    "gold_cited": null,
+    "removed_examples": [],
+    "answer_head": "Cash flow from operations (CFO) has generally tracked or exceeded reported profit (PAT) in recent years, with the exception of FY22. * **FY26:** CFO of ₹7,088 crore [F58] vs PAT of ₹4,395 crore [F57], resulting in a cash",
+    "tokens_in": 5544,
+    "tokens_out": 320,
+    "llm_calls": 2,
+    "cost_usd": 0.002463
+   },
+   {
+    "id": "E05",
+    "ticker": "ICICIBANK",
+    "expect": "answer",
+    "question": "What was the net interest margin?",
+    "mode": "llm:gemini-3.5-flash-lite",
+    "latency_ms": 10917,
+    "sentences": 4,
+    "cited_sentences": 4,
+    "doc_sentences": 3,
+    "doc_supported_lexical": 2,
+    "figures": 9,
+    "figures_with_reference": 9,
+    "validator_checked": 10,
+    "validator_removed": 1,
+    "explanations_removed": 0,
+    "abstained": false,
+    "gold_cited": false,
+    "removed_examples": [
+     "₹55,992 crore, up +16.21% YoY from ₹48,181 crore . — ₹55,992 crore: value ₹55,992 crore ≠ ₹48,181 crore"
+    ],
+    "answer_head": "ICICI Bank's reported net interest margin (NIM) was 4.30% in Q2FY26 [E1], and management stated that NIM has more or less stabilised around the 4.2%–4.3% range [E4]. * **Net Interest Income (Q2FY27):** ₹30,336 crore (con",
+    "tokens_in": 17456,
+    "tokens_out": 463,
+    "llm_calls": 5,
+    "cost_usd": 0.006394
+   },
+   {
+    "id": "E06",
+    "ticker": "TATASTEEL",
+    "expect": "answer",
+    "question": "How much cost saving has the transformation programme delivered?",
+    "mode": "llm:gemini-3.5-flash-lite",
+    "latency_ms": 3099,
+    "sentences": 4,
+    "cited_sentences": 4,
+    "doc_sentences": 4,
+    "doc_supported_lexical": 4,
+    "figures": 5,
+    "figures_with_reference": 5,
+    "validator_checked": 5,
+    "validator_removed": 0,
+    "explanations_removed": 0,
+    "abstained": false,
+    "gold_cited": true,
+    "removed_examples": [],
+    "answer_head": "Management stated that the transformation programme delivered about ₹1,800 crore of savings in the first half of FY2027, while the target for the full year remains unchanged at about ₹7,000 crore [E1]. * **H1 FY2027 Deli",
+    "tokens_in": 4431,
+    "tokens_out": 238,
+    "llm_calls": 2,
+    "cost_usd": 0.001924
+   },
+   {
+    "id": "E07",
+    "ticker": "BHARTIARTL",
+    "expect": "answer",
+    "question": "What was average revenue per user this quarter?",
+    "mode": "llm:gemini-3.5-flash-lite",
+    "latency_ms": 8831,
+    "sentences": 2,
+    "cited_sentences": 2,
+    "doc_sentences": 2,
+    "doc_supported_lexical": 2,
+    "figures": 0,
+    "figures_with_reference": 0,
+    "validator_checked": 2,
+    "validator_removed": 2,
+    "explanations_removed": 0,
+    "abstained": true,
+    "gold_cited": false,
+    "removed_examples": [
+     "Reported at ₹60,878 crore for Q2 FY27, up 16.75% YoY and 4.0% QoQ . — ₹60,878 crore: unit ₹ crore does not match %",
+     "Reported at ₹34,946 crore for Q2 FY27, up 18.22% YoY and 4.93% QoQ . — ₹34,946 crore: unit ₹ crore does not match %"
+    ],
+    "answer_head": "Management stated in the Q2 FY27 earnings call that pricing interventions on the prepaid ladder played out during the quarter [E15], but the company's disclosures and transcripts do not provide a specific numeric ARPU (A",
+    "tokens_in": 22950,
+    "tokens_out": 349,
+    "llm_calls": 5,
+    "cost_usd": 0.007757
+   },
+   {
+    "id": "E08",
+    "ticker": "POLYCAB",
+    "expect": "answer",
+    "question": "How fast did wires and cables revenue grow?",
+    "mode": "llm:gemini-3.5-flash-lite",
+    "latency_ms": 3414,
+    "sentences": 5,
+    "cited_sentences": 5,
+    "doc_sentences": 5,
+    "doc_supported_lexical": 5,
+    "figures": 4,
+    "figures_with_reference": 4,
+    "validator_checked": 4,
+    "validator_removed": 0,
+    "explanations_removed": 0,
+    "abstained": false,
+    "gold_cited": true,
+    "removed_examples": [],
+    "answer_head": "Management stated that the Wires and Cables segment delivered strong revenue growth of 47% year-on-year in the quarter ended October 2026 [E1]. * **Segment Revenue Growth:** The Wires and Cables segment recorded 47% year",
+    "tokens_in": 6703,
+    "tokens_out": 232,
+    "llm_calls": 2,
+    "cost_usd": 0.002591
+   },
+   {
+    "id": "E09",
+    "ticker": "SUNPHARMA",
+    "expect": "answer",
+    "question": "How did the innovative medicines business perform?",
+    "mode": "llm:gemini-3.5-flash-lite",
+    "latency_ms": 5217,
+    "sentences": 6,
+    "cited_sentences": 6,
+    "doc_sentences": 6,
+    "doc_supported_lexical": 6,
+    "figures": 11,
+    "figures_with_reference": 11,
+    "validator_checked": 11,
+    "validator_removed": 0,
+    "explanations_removed": 0,
+    "abstained": false,
+    "gold_cited": false,
+    "removed_examples": [],
+    "answer_head": "Management reported that the Global Innovative Medicines business delivered solid multi-quarter growth, driven by key brands like Ilumya, though the US segment faced a recent slowdown [E6][E7]. * In FY26, Global Innovati",
+    "tokens_in": 7708,
+    "tokens_out": 350,
+    "llm_calls": 3,
+    "cost_usd": 0.003187
+   },
+   {
+    "id": "E10",
+    "ticker": "HAVELLS",
+    "expect": "answer",
+    "question": "Why did Lloyd's margins stay subdued?",
+    "mode": "llm:gemini-3.5-flash-lite",
+    "latency_ms": 2738,
+    "sentences": 4,
+    "cited_sentences": 4,
+    "doc_sentences": 4,
+    "doc_supported_lexical": 3,
+    "figures": 0,
+    "figures_with_reference": 0,
+    "validator_checked": 0,
+    "validator_removed": 0,
+    "explanations_removed": 0,
+    "abstained": false,
+    "gold_cited": true,
+    "removed_examples": [],
+    "answer_head": "Management stated that Lloyd's margins remained subdued due to raw material inflation and seasonal under-absorption during the off-season, despite healthy volume and value revenue growth [E1]. * **Raw material inflation:",
+    "tokens_in": 5194,
+    "tokens_out": 184,
+    "llm_calls": 2,
+    "cost_usd": 0.002018
+   },
+   {
+    "id": "A01",
+    "ticker": "ULTRACEMCO",
+    "expect": "abstain",
+    "question": "What is the company's market share in Brazil?",
+    "mode": "llm:gemini-3.1-flash-lite",
+    "latency_ms": 36524,
+    "sentences": 4,
+    "cited_sentences": 4,
+    "doc_sentences": 4,
+    "doc_supported_lexical": 4,
+    "figures": 0,
+    "figures_with_reference": 0,
+    "validator_checked": 0,
+    "validator_removed": 0,
+    "explanations_removed": 0,
+    "abstained": true,
+    "gold_cited": null,
+    "removed_examples": [],
+    "answer_head": "UltraTech Cement does not report a market share for Brazil, and its disclosures indicate that the company focuses on the Indian market [E1]. Management has stated that there is no published data available to realisticall",
+    "tokens_in": 5286,
+    "tokens_out": 177,
+    "llm_calls": 3,
+    "cost_usd": 0.002028
+   },
+   {
+    "id": "A02",
+    "ticker": "PIDILITIND",
+    "expect": "abstain",
+    "question": "What revenue did the company report for FY35?",
+    "mode": "llm:gemini-3.5-flash-lite",
+    "latency_ms": 3127,
+    "sentences": 4,
+    "cited_sentences": 4,
+    "doc_sentences": 0,
+    "doc_supported_lexical": 0,
+    "figures": 4,
+    "figures_with_reference": 4,
+    "validator_checked": 4,
+    "validator_removed": 0,
+    "explanations_removed": 0,
+    "abstained": false,
+    "gold_cited": null,
+    "removed_examples": [],
+    "answer_head": "The company's available financial history extends up to FY26 [F56], so filings do not contain revenue data for FY35. * The company reported FY26 consolidated revenue of ₹14,601 crore [F56]. * Historical annual revenue in",
+    "tokens_in": 6799,
+    "tokens_out": 193,
+    "llm_calls": 2,
+    "cost_usd": 0.002522
+   },
+   {
+    "id": "A03",
+    "ticker": "TCS",
+    "expect": "abstain",
+    "question": "What is the CEO's personal net worth?",
+    "mode": "llm:gemini-3.5-flash-lite",
+    "latency_ms": 2529,
+    "sentences": 2,
+    "cited_sentences": 1,
+    "doc_sentences": 1,
+    "doc_supported_lexical": 1,
+    "figures": 0,
+    "figures_with_reference": 0,
+    "validator_checked": 0,
+    "validator_removed": 0,
+    "explanations_removed": 0,
+    "abstained": true,
+    "gold_cited": null,
+    "removed_examples": [],
+    "answer_head": "The company's primary disclosures do not provide the CEO's personal net worth. * **Limits:** Statutory exchange filings and annual reports report corporate financials (such as the company's net worth [E1]) and managerial",
+    "tokens_in": 4522,
+    "tokens_out": 106,
+    "llm_calls": 2,
+    "cost_usd": 0.001622
+   },
+   {
+    "id": "A04",
+    "ticker": "ITC",
+    "expect": "abstain",
+    "question": "What revenue growth guidance did management give on the latest earnings call?",
+    "mode": "llm:gemini-3.5-flash-lite",
+    "latency_ms": 5354,
+    "sentences": 2,
+    "cited_sentences": 1,
+    "doc_sentences": 1,
+    "doc_supported_lexical": 0,
+    "figures": 0,
+    "figures_with_reference": 0,
+    "validator_checked": 1,
+    "validator_removed": 1,
+    "explanations_removed": 0,
+    "abstained": true,
+    "gold_cited": null,
+    "removed_examples": [
+     "Q2FY27 consolidated revenue was reported at ₹20,269 crore, marking a +3.9% YoY change . — ₹20,269 crore: no cited source contains this figure with the same metric, period"
+    ],
+    "answer_head": "Management did not provide explicit quantitative revenue growth guidance on the earnings call. * Company disclosures and transcripts do not contain forward-looking revenue guidance figures [E5]. **Limits:** Transcripts a",
+    "tokens_in": 8587,
+    "tokens_out": 194,
+    "llm_calls": 4,
+    "cost_usd": 0.003061
+   }
+  ]
+ }
+}

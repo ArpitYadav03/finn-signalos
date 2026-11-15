@@ -1,0 +1,245 @@
+{
+ "_about": "Held-out retrieval cases. Gold = any indexed chunk containing every phrase (case-insensitive). Questions and gold phrases were written by the developer by reading documents with plain text search (not the retriever) before any retrieval variant was run; no retriever tuning was done afterwards. 'unfamiliar' companies were never used during development.",
+ "cases": [
+  {
+   "id": "R01",
+   "ticker": "ULTRACEMCO",
+   "sector": "cement",
+   "unfamiliar": true,
+   "question": "How did fuel and raw material costs change this quarter?",
+   "gold_phrases": [
+    "Fuel costs and raw material costs rose"
+   ]
+  },
+  {
+   "id": "R02",
+   "ticker": "ULTRACEMCO",
+   "sector": "cement",
+   "unfamiliar": true,
+   "question": "What dividend did the board recommend?",
+   "gold_phrases": [
+    "dividend of ₹240 per share"
+   ]
+  },
+  {
+   "id": "R03",
+   "ticker": "ULTRACEMCO",
+   "sector": "cement",
+   "unfamiliar": true,
+   "question": "What did management say about cement prices and performance?",
+   "gold_phrases": [
+    "prices were not the cause of any decline"
+   ]
+  },
+  {
+   "id": "R04",
+   "ticker": "PIDILITIND",
+   "sector": "adhesives & chemicals",
+   "unfamiliar": true,
+   "question": "What was underlying volume growth in the quarter?",
+   "gold_phrases": [
+    "underlying volume growth of 10.7%"
+   ]
+  },
+  {
+   "id": "R05",
+   "ticker": "PIDILITIND",
+   "sector": "adhesives & chemicals",
+   "unfamiliar": true,
+   "question": "How have VAM input prices moved?",
+   "gold_phrases": [
+    "VAM consumption rate"
+   ]
+  },
+  {
+   "id": "R06",
+   "ticker": "SUNPHARMA",
+   "sector": "pharma",
+   "unfamiliar": false,
+   "question": "How did the innovative medicines business perform?",
+   "gold_phrases": [
+    "Innovative Medicines sales were up 6.9%"
+   ]
+  },
+  {
+   "id": "R07",
+   "ticker": "NTPC",
+   "sector": "power",
+   "unfamiliar": false,
+   "question": "How much generation capacity was added in the year?",
+   "gold_phrases": [
+    "highest ever annual capacity addition"
+   ]
+  },
+  {
+   "id": "R08",
+   "ticker": "TATASTEEL",
+   "sector": "metals",
+   "unfamiliar": false,
+   "question": "What were steel production and deliveries in the Netherlands?",
+   "gold_phrases": [
+    "In Netherlands, Liquid steel production"
+   ]
+  },
+  {
+   "id": "R09",
+   "ticker": "TATASTEEL",
+   "sector": "metals",
+   "unfamiliar": false,
+   "question": "How much cost saving has the transformation programme delivered?",
+   "gold_phrases": [
+    "Rs 7,000 crores of savings"
+   ]
+  },
+  {
+   "id": "R10",
+   "ticker": "BHARTIARTL",
+   "sector": "telecom",
+   "unfamiliar": false,
+   "question": "What was average revenue per user this quarter?",
+   "gold_phrases": [
+    "ARPU for the quarter came in at Rs.271"
+   ]
+  },
+  {
+   "id": "R11",
+   "ticker": "MARUTI",
+   "sector": "autos",
+   "unfamiliar": false,
+   "question": "What were total sales volumes including exports?",
+   "gold_phrases": [
+    "highest ever quarterly total sales volume"
+   ]
+  },
+  {
+   "id": "R12",
+   "ticker": "ICICIBANK",
+   "sector": "banks",
+   "unfamiliar": false,
+   "question": "What was the net interest margin?",
+   "gold_phrases": [
+    "net interest margin was 4.36%"
+   ]
+  },
+  {
+   "id": "R13",
+   "ticker": "BAJFINANCE",
+   "sector": "NBFC",
+   "unfamiliar": false,
+   "question": "How fast did assets under management grow?",
+   "gold_phrases": [
+    "AUM, as you can see, grew by 26.5%"
+   ]
+  },
+  {
+   "id": "R14",
+   "ticker": "PERSISTENT",
+   "sector": "IT services",
+   "unfamiliar": false,
+   "question": "What was the total contract value of deals signed in the quarter?",
+   "gold_phrases": [
+    "Total Contract Value for the quarter stood at USD 600.8 million"
+   ]
+  },
+  {
+   "id": "R15",
+   "ticker": "ASIANPAINT",
+   "sector": "paints",
+   "unfamiliar": false,
+   "question": "Were they able to pass on price increases?",
+   "gold_phrases": [
+    "managed to pass on price increases"
+   ]
+  },
+  {
+   "id": "R16",
+   "ticker": "ASIANPAINT",
+   "sector": "paints",
+   "unfamiliar": false,
+   "question": "How much cash did operations generate in FY26?",
+   "gold_phrases": [
+    "Net Cash generated from Operating activities 7,088.18"
+   ]
+  },
+  {
+   "id": "R17",
+   "ticker": "ITC",
+   "sector": "FMCG",
+   "unfamiliar": false,
+   "question": "How did the cigarettes business perform?",
+   "gold_phrases": [
+    "FMCG-Cigarettes Segment witnessed sustained growth"
+   ]
+  },
+  {
+   "id": "R18",
+   "ticker": "TCS",
+   "sector": "IT services",
+   "unfamiliar": false,
+   "question": "What is employee attrition?",
+   "gold_phrases": [
+    "voluntary attrition in IT Services stands at 13.5%"
+   ]
+  },
+  {
+   "id": "R19",
+   "ticker": "DIXON",
+   "sector": "electronics manufacturing",
+   "unfamiliar": false,
+   "question": "How is the mobile phone business doing?",
+   "gold_phrases": [
+    "Our mobile business has remained resilient"
+   ]
+  },
+  {
+   "id": "R20",
+   "ticker": "POLYCAB",
+   "sector": "electricals",
+   "unfamiliar": false,
+   "question": "How fast did wires and cables revenue grow?",
+   "gold_phrases": [
+    "recording 47% year-on-year revenue growth"
+   ]
+  },
+  {
+   "id": "R21",
+   "ticker": "LT",
+   "sector": "capital goods",
+   "unfamiliar": false,
+   "question": "What drove order inflows?",
+   "gold_phrases": [
+    "order inflows momentum remained positive"
+   ]
+  },
+  {
+   "id": "R22",
+   "ticker": "HAVELLS",
+   "sector": "consumer electricals",
+   "unfamiliar": false,
+   "question": "How did Lloyd perform?",
+   "gold_phrases": [
+    "Lloyd also delivered healthy revenue growth"
+   ]
+  },
+  {
+   "id": "R23",
+   "ticker": "HDFCBANK",
+   "sector": "banks",
+   "unfamiliar": false,
+   "question": "What share of the loan book is unsecured?",
+   "gold_phrases": [
+    "unsecured mix"
+   ]
+  },
+  {
+   "id": "R24",
+   "ticker": "INFY",
+   "sector": "IT services",
+   "unfamiliar": false,
+   "question": "What operating margin guidance did management give for the year?",
+   "gold_phrases": [
+    "operating margin guidance for financial year"
+   ]
+  }
+ ]
+}

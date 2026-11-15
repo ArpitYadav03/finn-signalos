@@ -1,0 +1,33 @@
+{
+ "_about": "Held-out materiality labels for 28 randomly sampled real filings (seed 7). Labelled by the developer from title and exchange summary only, before looking at FINN's scores. prominent = should be a 'development to review' (high/medium); routine = should not. Keys are content_hash prefixes.",
+ "labels": {
+  "7d87bd646aa6": "routine",
+  "c3ca3db83e54": "prominent",
+  "d99d16fdeb64": "routine",
+  "f86c3fde58b9": "routine",
+  "4848bf1c83ee": "routine",
+  "ac08585e889f": "prominent",
+  "73d6435b4fb7": "routine",
+  "f61babb449ad": "routine",
+  "0d5af702fae3": "routine",
+  "852b1e480596": "prominent",
+  "d4314504b8d6": "routine",
+  "187c29b2169b": "routine",
+  "b58a78070249": "routine",
+  "ccbcfd181d65": "routine",
+  "870147620e0c": "routine",
+  "7f1785b6faaa": "routine",
+  "ec0ff20662c6": "routine",
+  "bb54f0f3c3a5": "routine",
+  "932e2b0f917d": "routine",
+  "9c71cfbe3121": "routine",
+  "8ccd4ba51e8e": "routine",
+  "092a5d06cf8a": "routine",
+  "5d56ad118c4c": "routine",
+  "002b1ac76854": "routine",
+  "36a47ac85a37": "routine",
+  "8ae527253e92": "prominent",
+  "06779a7e9ae8": "prominent",
+  "66676eeff4ee": "routine"
+ }
+}
