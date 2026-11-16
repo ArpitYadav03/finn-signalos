@@ -1,14 +1,21 @@
 import { NextRequest, NextResponse } from "next/server";
-import { SESSION_COOKIE, safeEqual, sessionToken } from "@/lib/session";
+import { GUEST_COOKIE, SESSION_COOKIE, safeEqual, sessionToken } from "@/lib/session";
 
 /** Optional workspace password for a public demo (FINN_SITE_PASSWORD). FINN is a single shared workspace: everyone who
  *  signs in sees and edits the same portfolio, alerts and preferences. Unset = open (local development).
  *  Pages without a session go to the sign-in screen; API calls get 401. HTTP Basic auth still works for scripts. */
 export async function middleware(req: NextRequest) {
   const pw = process.env.FINN_SITE_PASSWORD;
-  if (!pw) return NextResponse.next();
   const { pathname, search } = req.nextUrl;
   if (pathname === "/login" || pathname === "/api/session" || pathname === "/icon.svg" || pathname === "/manifest.webmanifest") return NextResponse.next();
+  if (!pw) {
+    // No password: the sign-in screen is a welcome step ("Continue to FINN"), not a lock. API calls stay open.
+    if (pathname.startsWith("/api/") || req.cookies.get(GUEST_COOKIE)?.value) return NextResponse.next();
+    const url = req.nextUrl.clone();
+    url.pathname = "/login";
+    url.search = `?next=${encodeURIComponent(pathname + search)}`;
+    return NextResponse.redirect(url);
+  }
   const cookie = req.cookies.get(SESSION_COOKIE)?.value;
   if (cookie && safeEqual(cookie, await sessionToken(pw))) return NextResponse.next();
   const [scheme, value] = (req.headers.get("authorization") || "").split(" ");

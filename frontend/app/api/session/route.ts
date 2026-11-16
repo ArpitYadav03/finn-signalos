@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { SESSION_COOKIE, SESSION_MAX_AGE, safeEqual, sessionToken } from "@/lib/session";
+import { GUEST_COOKIE, SESSION_COOKIE, SESSION_MAX_AGE, safeEqual, sessionToken } from "@/lib/session";
 
 /** Is a workspace password configured? (Lets the sign-in screen say "open on this computer" honestly.) */
 export async function GET() {
@@ -16,15 +16,15 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ detail: "That password isn't right." }, { status: 401 });
   }
   const res = NextResponse.json({ ok: true });
-  if (pw) {
-    res.cookies.set(SESSION_COOKIE, await sessionToken(pw), { httpOnly: true, sameSite: "lax", secure: process.env.NODE_ENV === "production",
-      path: "/", maxAge: SESSION_MAX_AGE });
-  }
+  const opts = { httpOnly: true, sameSite: "lax" as const, secure: process.env.NODE_ENV === "production", path: "/", maxAge: SESSION_MAX_AGE };
+  if (pw) res.cookies.set(SESSION_COOKIE, await sessionToken(pw), opts);
+  else res.cookies.set(GUEST_COOKIE, "1", opts);   // no password: remember that the welcome step was completed
   return res;
 }
 
 export async function DELETE() {
   const res = NextResponse.json({ ok: true });
   res.cookies.set(SESSION_COOKIE, "", { path: "/", maxAge: 0 });
+  res.cookies.set(GUEST_COOKIE, "", { path: "/", maxAge: 0 });
   return res;
 }

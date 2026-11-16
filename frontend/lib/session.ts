@@ -1,6 +1,7 @@
 /** Workspace session cookie (edge- and node-safe). The cookie holds an HMAC of the configured workspace password, never
  *  the password itself; changing FINN_SITE_PASSWORD invalidates every session. */
 export const SESSION_COOKIE = "finn_session";
+export const GUEST_COOKIE = "finn_guest";       // set when no password is configured and the visitor tapped "Continue"
 export const SESSION_MAX_AGE = 60 * 60 * 24 * 7; // 7 days
 
 export async function sessionToken(password: string): Promise<string> {

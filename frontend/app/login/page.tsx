@@ -82,8 +82,10 @@ function LoginForm() {
 
         {required === false ? (
           <div className="space-y-3 text-center">
-            <p className="text-[13.5px] text-ink-2">This workspace has no password on this computer.</p>
-            <button className="btn btn-primary min-h-[54px] w-full text-[15px]" onClick={() => router.replace(next)}>Continue to FINN</button>
+            <p className="text-[13.5px] text-ink-2">Demo access: no password needed.</p>
+            <button className="btn btn-primary min-h-[54px] w-full text-[15px]" onClick={submit} disabled={busy} aria-busy={busy} data-testid="continue-guest">
+              {busy ? "Opening FINN…" : "Continue to FINN"}</button>
+            {err && <p role="alert" className="text-[13px] text-down">{err}</p>}
           </div>
         ) : (
           <form onSubmit={submit} noValidate>
